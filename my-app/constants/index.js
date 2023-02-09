@@ -1,4 +1,4 @@
-export const NFT_CONTRACT_ADDRESS = "0x96684C473E814a25532dC2c42a317E8c4d384c80"
+export const NFT_CONTRACT_ADDRESS = "0xC61dd4B385a77d7CF8f79f6e28B8e9992794c2d9"
 export const abi = [
     {
       "inputs": [
@@ -9,7 +9,7 @@ export const abi = [
         },
         {
           "internalType": "address",
-          "name": "WhitelistContract",
+          "name": "whitelistContract",
           "type": "address"
         }
       ],
@@ -402,7 +402,7 @@ export const abi = [
           "type": "bool"
         }
       ],
-      "name": "setPause",
+      "name": "setPaused",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
